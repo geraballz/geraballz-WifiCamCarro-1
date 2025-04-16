@@ -297,14 +297,14 @@ void decodeCommand(EventValue eventValue) {
 }
 void createSoftAP() {
   WiFi.mode(WIFI_AP_STA); // Modo AP + STA
-  bool apStarted = WiFi.softAP(APSSID); // Iniciar el punto de acceso
+  bool apStarted = WiFi.softAP(APSSID); 
 
   if (apStarted) {
-      Serial.println("Punto de acceso creado con éxito");
-      Serial.print("IP del AP: ");
+      Serial.println("AP Created!");
+      Serial.print("AP IP: ");
       Serial.println(WiFi.softAPIP());
   } else {
-      Serial.println("Error al crear el punto de acceso");
+      Serial.println("Error creating AP");
   }
 }
 
@@ -327,9 +327,9 @@ void connectToHomeWiFi() {
 
   WiFi.begin(SSID_NAME, SSID_PASSWORD);
 
-  // Intentar conectar con un tiempo de espera (timeout)
+  // (timeout)
   unsigned long startTime = millis();
-  const unsigned long timeout = 10000; // 10 segundos de tiempo de espera
+  const unsigned long timeout = 10000; // 10 seconds timeout
 
   while (WiFi.status() != WL_CONNECTED) {
       delay(500);
