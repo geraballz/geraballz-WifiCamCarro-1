@@ -5,7 +5,7 @@ Open This project with Visual Code.
 # HOW WORKS #
 First, when initializing, create a Wi-Fi AP and connect if you wish. Otherwise, if you did not connect at any time, wait 60 seconds and it will connect to the Wi-Fi network with the credentials you defined in the secrets.h file.
 
-![](howworks.png)
+![](howworks.jpg)
 # VIDEO #
 https://youtu.be/MEsUvnjNC_g
 
