@@ -8,6 +8,9 @@ First, when initializing, create a Wi-Fi AP and connect if you wish. Otherwise, 
 # VIDEO #
 https://youtu.be/MEsUvnjNC_g
 
+# APP #
+https://apps.apple.com/mx/app/wificamcarro/id6744302034
+
 # Comunication #
 https://www.facebook.com/profile.php?id=61575340224057
 
